@@ -1,0 +1,53 @@
+Differentiate var, let, const:
+
+var, let, const is a variable declaration keyword.
+
+Before the advent of ES6 using popular keyword is var.
+
+After the advent of ES6 using keyword is let and const.
+
+var:
+
+var variable declarations are two types : global variable and local variable
+
+The variable declared in outside a function it’s called global variable
+
+The variable declared in inside a function it’s called local variable
+
+var variables can be re-declared and updated.
+
+var variables are declared before executing the value of return is undefined.
+
+If it uses the re-declare variable in the different block, it will throw errors.
+
+var variables can be declared without being initialized
+
+let:
+
+let variables are block-scoped
+
+A block is a chunk of code bounded by {}.
+
+A block lives in curly braces. Anything within curly braces is a block.
+
+let variables can be accessed at block level only
+
+let variables can be updated but not re-declared.
+
+let variables are declared before executing the value of return is Reference Error.
+
+let variables can be declared without being initialized
+
+const
+
+const variables are block-scoped
+
+object also declared in const
+
+const variables must be initialized during declaration.
+
+const object cannot be updated, the properties of this objects can be updated.
+
+const variables cannot be updated or re-declared
+
+const variables are declared before executing the value of return is Reference Error.
